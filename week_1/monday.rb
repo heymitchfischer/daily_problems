@@ -4,5 +4,5 @@ items = [
   {id: 3, body: 'foobar'}
 ]
 
-items = items.map{|x| x[id:]}
+items = items.map{|x| x[:id]}
 p items

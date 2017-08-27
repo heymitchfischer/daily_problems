@@ -4,4 +4,4 @@ fruits = [
   {"name" => "grape", "color" => "purple"}
 ]
 
-fruits.map{|x| x[:id]}
+p fruits.map{ |fruit| [fruit["name"], fruit["color"]]}.to_h
